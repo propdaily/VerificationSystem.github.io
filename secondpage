@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Discord Verification</title>
+  <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/5968/5968756.png">
+  <style>
+    body {
+      background: #23272A;
+      color: white;
+      font-family: Arial, sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      text-align: center;
+    }
+    .card {
+      background: #2C2F33;
+      padding: 40px;
+      border-radius: 15px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.4);
+    }
+    .btn {
+      background: #5865F2;
+      color: white;
+      border: none;
+      padding: 15px 30px;
+      font-size: 16px;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+    .btn:hover { background: #4752C4; }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>Discord Verification</h1>
+    <p>Click below to verify your Discord account.</p>
+    <button class="btn" onclick="youtube.com">
+      Login with Discord
+    </button>
+  </div>
+</body>
+</html>
